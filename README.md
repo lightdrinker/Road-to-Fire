@@ -1,2 +1,9 @@
 # Road-to-Fire
-F.I.R.E roadmap analytics workshop simulator
+
+F.I.R.E 로드맵 애널리틱스 워크숍 시뮬레이터.
+
+단일 HTML 페이지입니다. 브라우저에서 `index.html`을 열거나 Vercel 배포 URL로 사용합니다.
+
+- 월 납입·초기 자산 단위: 만원
+- 포트폴리오 A/B/C/D 비교, 테이블 연차 오버라이드
+- 배당소득세 15.4%
