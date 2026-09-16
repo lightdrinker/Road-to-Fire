@@ -1,45 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F.I.R.E 로드맵 애널리틱스 &#x1F9ED;</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
-    <style>
-        :root { --bg-color:#f3f4f6; --panel-bg:#fff; --border-color:#e5e7eb; --text-main:#111827; --text-muted:#6b7280; --highlight:#2563eb; --color-up:#3b82f6; --color-down:#ef4444; }
-        * { box-sizing:border-box; }
-        body { font-family:'Pretendard',sans-serif; background:var(--bg-color); color:var(--text-main); margin:0; display:flex; height:100vh; overflow:hidden; }
-        .sidebar { width:440px; min-width:440px; padding:20px; overflow-y:auto; }
-        .sidebar.collapsed { margin-left:-440px; }
-        .toggle-wrapper { width:20px; background:#e5e7eb; cursor:pointer; display:flex; align-items:center; justify-content:center; }
-        .portfolio-card { background:#fff; border-radius:12px; padding:16px; border-top:5px solid; margin-bottom:16px; }
-        .main-content { flex:1; padding:24px; overflow-y:auto; }
-        .chart-toolbar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:10px; }
-        .range-chip { border:1px solid #e5e7eb; background:#fff; border-radius:999px; padding:4px 10px; font-weight:700; cursor:pointer; }
-        .range-chip.active { background:#111827; color:#fff; }
-        .chart-box { height:380px; }
-        .chart-container { background:#fff; border-radius:12px; padding:16px; margin-bottom:20px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>F.I.R.E Roadmap</title>
 </head>
 <body>
-    <div class="sidebar" id="sidebar"></div>
-    <div class="toggle-wrapper" onclick="toggleSidebar()">◀</div>
-    <div class="main-content">
-        <h1>F.I.R.E 로드맵 애널리틱스 &#x1F9ED;</h1>
-        <div class="chart-container">
-            <div class="chart-toolbar">
-                <button class="range-chip active" data-from="1" data-to="40">전체 1-40</button>
-                <button class="range-chip" data-from="1" data-to="10">1-10년</button>
-                <button class="range-chip" data-from="11" data-to="20">11-20년</button>
-                <button class="range-chip" data-from="21" data-to="30">21-30년</button>
-                <button class="range-chip" data-from="31" data-to="40">31-40년</button>
-            </div>
-            <div class="chart-box"><canvas id="growthChart"></canvas></div>
-        </div>
-        <p>완전본은 Vercel road-to-fire-sim 에 배포됨. artifacts/index.html 참조.</p>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>function toggleSidebar(){document.getElementById('sidebar').classList.toggle('collapsed')}</script>
+<p>placeholder</p>
 </body>
 </html>
